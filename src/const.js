@@ -18,7 +18,8 @@ export const ClassName = {
   TEXT_DANGER: 'text-danger',
   BG_SUCCESS: 'bg-success',
   BG_DANGER: 'bg-danger',
-  BG_DEFAULT: 'bg-default'
+  BG_DEFAULT: 'bg-default',
+  ROW_0: 'row-0'
 };
 
 export const TagName = {

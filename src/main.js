@@ -1,12 +1,12 @@
 import './style.css';
 import { data } from './mock';
 import { createTable, createRow } from './utils';
-import { TagName } from './const';
+import { TagName, ClassName } from './const';
 
 tableWrapper.insertAdjacentHTML('beforeend', createTable(data));
 
 const onTableClick = (evt) => {
-  if (evt.target.tagName === TagName.TABLE || evt.target.parentElement.id === 'row-0') {
+  if (evt.target.tagName === TagName.TABLE || evt.target.parentElement.id === ClassName.ROW_0) {
     return;
   }
   createRow(evt.target.parentElement);
